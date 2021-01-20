@@ -9,11 +9,12 @@ class KeluhanViewHolder(val view: View) : RecyclerView.ViewHolder(view) {
     fun bindItem(users: Keluhan) {
         view.apply {
             //get data keluhan
-            val keluhan = "Keluhan   : ${users.strKeluhan}"
-            val tanggal = "Tanggal    : ${users.strTgl}"
+            val tanggal = "Tanggal : ${users.strTgl}"
+            val keluhan = "Keluhan : \n${users.strKeluhan}"
             //set view
-            tv_ket.text = keluhan
             tv_tgl.text = tanggal
+            tv_ket.text = keluhan
+
         }
     }
 }
