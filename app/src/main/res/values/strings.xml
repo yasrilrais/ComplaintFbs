@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ComplaintFbs</string>
+    <string name="ket">Keterangan</string>
+    <string name="save">Input</string>
+    <string name="update">Update</string>
+    <string name="tanggal">Tanggal input (dd/MM/yyy)</string>
+</resources>

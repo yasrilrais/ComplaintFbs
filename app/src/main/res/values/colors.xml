@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#b71c1c</color>
+    <color name="colorPrimaryDark">#7f0000</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="df_red">#dc3545</color>
+    <color name="df_danger">#dc3545</color>
+    <color name="formBg">#f0f0f0</color>
+    <color name="black_alpha_75">#bf000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="SpaceCadet">#2b2d42</color>
+    <color name="Manatee">#8d99ae</color>
+    <color name="AliceBlue">#edf2f4</color>
+    <color name="ImperialRed">#ef233c</color>
+    <color name="AmaranthRed">#d90429</color>
+    <color name="black">#FF000000</color>
+    <color name="colorDivider">#DFDBDB</color>
+</resources>

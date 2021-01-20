@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "108407650177",
+    "project_id": "complaintfbs",
+    "storage_bucket": "complaintfbs.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:108407650177:android:cbec7c76d5935a0da41a80",
+        "android_client_info": {
+          "package_name": "com.example.complaintfbs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "108407650177-8p4ce2vsdfc7vd0plrclfos8r3iam6i1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWMJ_XsSdLAVb5YxAZfKSCKJ328XYvbpE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "108407650177-8p4ce2vsdfc7vd0plrclfos8r3iam6i1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
