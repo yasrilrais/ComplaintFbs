@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_homepage.*
+import kotlinx.android.synthetic.main.activity_main.*
 
 class Homepage : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -14,9 +15,15 @@ class Homepage : AppCompatActivity() {
     }
 
     private fun initView() {
-        buttonComplaint.setOnClickListener {
+        buttonHistory.setOnClickListener {
             //berpindah ke activity MainActivity
             startActivity(Intent(this, MainActivity::class.java).apply {
+            })
+        }
+        buttonComplaint.setOnClickListener {
+            //berpindah ke activity CrudActivity untuk tambah data
+            startActivity(Intent(this, CrudActivity::class.java).apply {
+                putExtra(CrudActivity.REQ_EDIT, false)
             })
         }
     }
