@@ -101,7 +101,7 @@ class MainActivity : AppCompatActivity() {
         //menghapus data berdasarkan id
         mKeluhanCollection.document(id)
             .delete()
-            .addOnCompleteListener { Toast.makeText(this, "Succes Hapus data", Toast.LENGTH_SHORT).show() }
+            .addOnCompleteListener { Toast.makeText(this, "Sukses Hapus data", Toast.LENGTH_SHORT).show() }
             .addOnFailureListener { Toast.makeText(this, "Gagal Hapus data", Toast.LENGTH_SHORT).show() }
     }
 

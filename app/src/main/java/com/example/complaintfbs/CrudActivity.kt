@@ -52,11 +52,11 @@ class CrudActivity : AppCompatActivity() {
                 if (isEdit) {
                     Toast.makeText(this, "Sukses perbarui data", Toast.LENGTH_SHORT).show()
                 } else {
-                    Toast.makeText(this, "Sukses tambah data", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this, "Sukses input data", Toast.LENGTH_SHORT).show()
                 }
                 finish()
             } else {
-                Toast.makeText(this, "Gagal tambah data", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Gagal input data", Toast.LENGTH_SHORT).show()
             }
         }.addOnFailureListener {
             Toast.makeText(this, "Error Added data ${it.message}", Toast.LENGTH_SHORT).show()
